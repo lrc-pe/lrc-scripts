@@ -1,0 +1,60 @@
+[General]
+Type=Java_protocols_not_support
+DefaultCfg=default.cfg
+LastActiveAction=Actions
+MajorVersion=12
+MinorVersion=50
+ParameterFile=
+GlobalParameterFile=
+RunType=Java-Interpreter
+NewFunctionHeader=1
+ActionLogicExt=action_logic
+DevelopTool=Vugen
+LastModifyVer=12.50.0.0
+ActiveTypes=Java_protocols
+AdditionalTypes=Java_protocols
+GenerateTypes=Java_protocols
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=JAVA
+DisableRegenerate=0
+Description=
+[Actions]
+vuser_init=vuser_init.java
+Actions=Actions.java
+vuser_end=vuser_end.java
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+Default Profile=default.cfg
+[RunLogicFiles]
+Default Profile=default.usp
+[Modified Actions]
+vuser_init=0
+Actions=1
+vuser_end=0
+[Recorded Actions]
+vuser_init=0
+Actions=0
+vuser_end=0
+[Replayed Actions]
+vuser_init=1
+Actions=1
+vuser_end=1
+[Interpreters]
+vuser_init=Java-Interpreter
+Actions=Java-Interpreter
+vuser_end=Java-Interpreter
+[TransactionsOrder]
+Order="Init Transaction__*delimiter*__Action Transaction2__*delimiter*__Action Transaction3__*delimiter*__Action Transaction1__*delimiter*__End Transaction"
+[StateManagement]
+LastReplayStatus=1
+[ActiveReplay]
+LastReplayedRunName=result1
+ActiveRunName=result1
+[Transactions]
+"Init Transaction"=
+"Action Transaction2"=
+"Action Transaction3"=
+"Action Transaction1"=
+"End Transaction"=

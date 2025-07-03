@@ -1,0 +1,37 @@
+Notify: Found jdk version: 1.7.0.
+Notify: classpath=C:\Users\admin\Desktop\SRL Scripts\Protocols\JAVA\java record reply\Java_record_replay_synthetic\;c:\program files (x86)\hp\virtual user generator\classes\srv;c:\program files (x86)\hp\virtual user generator\classes;;;;c:\program files (x86)\hp\virtual user generator\lib\xstream-1.4.8.jar;c:\program files (x86)\hp\virtual user generator\lib\xpp3-1.1.4c.jar
+Notify: Path=C:\Program Files (x86)\Java\jdk1.7.0_79\jre\bin\client;C:\Program Files (x86)\HP\Virtual User Generator\Bin;C:\Program Files (x86)\HP\Virtual User Generator\Bin\tulip\bin;C:\Program Files (x86)\Java\jdk1.7.0_79\bin;C:\jmeter\bin;C:\Program Files (x86)\HP\NV\lib\shunra\vcat;c:\cygwin\bin;c:\cygwin\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\Users\admin\AppData\Roaming\npm;C:\Program Files (x86)\HP\Virtual User Generator\strawberry-perl\perl\bin;C:\Program Files (x86)\HP\NV\lib\thirdparty\safenet\LDK\7.0;C:\Program Files (x86)\HP\Load Generator\bin;C:\Program Files (x86)\Java\jre7\bin;C:\stormrunnerlg\cygwin\bin;C:\Program Files (x86)\Java\jdk1.7.0_79\bin;C:\Users\admin\AppData\Roaming\npm
+Notify: VM Params: .
+Virtual User Script started at : 1/18/2016 6:16:02 PM
+Starting action vuser_init.
+Notify: Transaction "Init Transaction" started.
+Notify: Data Point "mic_recv" value = 1000.0000.
+Notify: Data Point "HTTP_200" value = 5.0000.
+Notify: Transaction "Init Transaction" ended with a "Pass" status (Duration: 0.0081).
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 4  	[MsgId: MMSG-26989]
+Starting action Actions.
+Notify: Transaction "Action Transaction1" started.
+Notify: Data Point "mic_recv" value = 1000.0000.
+Notify: Data Point "HTTP_200" value = 5.0000.
+Notify: Transaction "Action Transaction1" ended with a "Pass" status (Duration: 0.0006).
+Notify: Transaction "Action Transaction2" started.
+Notify: Data Point "mic_recv" value = 1000.0000.
+Notify: Data Point "HTTP_200" value = 5.0000.
+Notify: Transaction "Action Transaction2" ended with a "Pass" status (Duration: 0.0005).
+Notify: Transaction "Action Transaction3" started.
+Notify: Data Point "mic_recv" value = 1000.0000.
+Notify: Data Point "HTTP_200" value = 5.0000.
+Notify: Transaction "Action Transaction3" ended with a "Pass" status (Duration: 0.0005).
+Ending action Actions.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Notify: Transaction "End Transaction" started.
+Notify: Data Point "mic_recv" value = 1000.0000.
+Notify: Data Point "HTTP_200" value = 5.0000.
+Notify: Transaction "End Transaction" ended with a "Pass" status (Duration: 0.0005).
+Ending action vuser_end.
+Vuser Terminated.

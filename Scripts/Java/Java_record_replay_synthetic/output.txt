@@ -1,0 +1,33 @@
+Virtual User Script started at : 1/18/2016 6:16:02 PM
+Starting action vuser_init.
+Notify: Transaction "Init Transaction" started.
+Notify: Data Point "mic_recv" value = 1000.0000.
+Notify: Data Point "HTTP_200" value = 5.0000.
+Notify: Transaction "Init Transaction" ended with a "Pass" status (Duration: 0.0081).
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 4  	[MsgId: MMSG-26989]
+Starting action Actions.
+Notify: Transaction "Action Transaction1" started.
+Notify: Data Point "mic_recv" value = 1000.0000.
+Notify: Data Point "HTTP_200" value = 5.0000.
+Notify: Transaction "Action Transaction1" ended with a "Pass" status (Duration: 0.0006).
+Notify: Transaction "Action Transaction2" started.
+Notify: Data Point "mic_recv" value = 1000.0000.
+Notify: Data Point "HTTP_200" value = 5.0000.
+Notify: Transaction "Action Transaction2" ended with a "Pass" status (Duration: 0.0005).
+Notify: Transaction "Action Transaction3" started.
+Notify: Data Point "mic_recv" value = 1000.0000.
+Notify: Data Point "HTTP_200" value = 5.0000.
+Notify: Transaction "Action Transaction3" ended with a "Pass" status (Duration: 0.0005).
+Ending action Actions.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Notify: Transaction "End Transaction" started.
+Notify: Data Point "mic_recv" value = 1000.0000.
+Notify: Data Point "HTTP_200" value = 5.0000.
+Notify: Transaction "End Transaction" ended with a "Pass" status (Duration: 0.0005).
+Ending action vuser_end.
+Vuser Terminated.
