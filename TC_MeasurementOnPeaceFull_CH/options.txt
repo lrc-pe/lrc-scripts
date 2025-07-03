@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Administrator\Desktop\New Scripts\Chrome Browser\TC_MeasurementOnPeaceFull_CH
+-IC:\Program Files (x86)\HP\LoadRunner\include
+-ec:\users\administrator\desktop\new scripts\chrome browser\tc_measurementonpeacefull_ch\\logfile.log
+c:\users\administrator\desktop\new scripts\chrome browser\tc_measurementonpeacefull_ch\\combined_TC_MeasurementOnPeaceFull_CH.c
+c:\users\administrator\desktop\new scripts\chrome browser\tc_measurementonpeacefull_ch\\pre_cci.c
