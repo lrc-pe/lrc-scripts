@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Administrator\Desktop\Scripts\TCSynthetic
+-IC:\Program Files (x86)\HP\LoadRunner\include
+-ec:\users\administrator\desktop\scripts\tcsynthetic\\logfile.log
+c:\users\administrator\desktop\scripts\tcsynthetic\\combined_TCSynthetic.c
+c:\users\administrator\desktop\scripts\tcsynthetic\\pre_cci.c

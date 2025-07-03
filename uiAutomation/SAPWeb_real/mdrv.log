@@ -1,0 +1,22 @@
+Virtual User Script started at: 3/6/2019 10:41:57 PM
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.60.0 for Windows 2008 R2; build 971 (Aug 09 2018 11:27:13)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\appsadmin\Desktop\kally\SAPWeb_real\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action Action.
+Action.c(3): Notify: Transaction "trans1_sapweb" started.
+Action.c(10): web_reg_save_param_ex started  	[MsgId: MMSG-26355]
+Action.c(10): Registering web_reg_save_param_ex was successful  	[MsgId: MMSG-26390]
+Action.c(19): web_url("mySAPCorrelations.html") started  	[MsgId: MMSG-26355]
+Action.c(19): web_url("mySAPCorrelations.html") was successful, 2602 body bytes, 311 header bytes  	[MsgId: MMSG-26386]
+Action.c(28): Notify: Transaction "trans1_sapweb" ended with a "Pass" status (Duration: 0.3609 Wasted Time: 0.2186).
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

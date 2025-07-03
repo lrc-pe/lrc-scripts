@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<ArrayOfReference xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Reference>
+    <Name>LoadRunner, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</Name>
+    <CopyLocal>false</CopyLocal>
+    <SharedDll>false</SharedDll>
+    <IsActive>true</IsActive>
+    <IsSpecificVersion>false</IsSpecificVersion>
+    <IsCustom>false</IsCustom>
+    <IsAssembly>true</IsAssembly>
+  </Reference>
+  <Reference>
+    <Name>System</Name>
+    <CopyLocal>false</CopyLocal>
+    <SharedDll>false</SharedDll>
+    <IsActive>true</IsActive>
+    <IsSpecificVersion>false</IsSpecificVersion>
+    <IsCustom>false</IsCustom>
+    <IsAssembly>true</IsAssembly>
+  </Reference>
+  <Reference>
+    <Name>ClassLibrary1, Version=1.0.6094.29374, Culture=neutral, PublicKeyToken=null</Name>
+    <CopyLocal>false</CopyLocal>
+    <SharedDll>false</SharedDll>
+    <IsActive>true</IsActive>
+    <IsSpecificVersion>false</IsSpecificVersion>
+    <IsCustom>false</IsCustom>
+    <IsAssembly>true</IsAssembly>
+  </Reference>
+  <Reference>
+    <Name>Action.cs</Name>
+    <CopyLocal>false</CopyLocal>
+    <SharedDll>false</SharedDll>
+    <IsActive>true</IsActive>
+    <IsSpecificVersion>false</IsSpecificVersion>
+    <IsCustom>false</IsCustom>
+    <IsAssembly>false</IsAssembly>
+  </Reference>
+  <Reference>
+    <Name>globals.cs</Name>
+    <CopyLocal>false</CopyLocal>
+    <SharedDll>false</SharedDll>
+    <IsActive>true</IsActive>
+    <IsSpecificVersion>false</IsSpecificVersion>
+    <IsCustom>false</IsCustom>
+    <IsAssembly>false</IsAssembly>
+  </Reference>
+</ArrayOfReference>

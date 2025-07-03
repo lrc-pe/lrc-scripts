@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\appsadmin\Documents\VuGen\Scripts\Additional_folder
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\appsadmin\documents\vugen\scripts\additional_folder\\logfile.log
+c:\users\appsadmin\documents\vugen\scripts\additional_folder\\combined_Additional_folder.c
+c:\users\appsadmin\documents\vugen\scripts\additional_folder\\pre_cci.c

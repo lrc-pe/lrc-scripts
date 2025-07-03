@@ -1,0 +1,59 @@
+Virtual User Script started at : 2017-09-19 08:17:48
+t=00005126ms: Error -205177: TypeError: targetFactory is undefined
+undefined
+While calling handlers in TC_NS.RuleEngine dispatch, event=[TC_NS.Event type="TC.startTrackingTabEvents" target="[object Object]"], handler=
+function (e) {
+"use strict";
+
+        if (!tabListenerInst) {
+            initModule();
+            tabListenerInst = new TabListener();
+        }
+        tabListenerInst.track();
+    }       Snapshot Info [MSH undefined 0]    [MsgId: MERR-205177]
+TruClient Replay for LoadRunner 12.53.0, build 1203. OS: Windows 7, Browser: Firefox, initialized on 2017/09/19 at 08:17:43 (0000.000s)
+Running Vuser...
+Starting iteration 1.
+Notify: Transaction "Transaction 1" started.
+t=00005198ms: ** 1: Execute TC.userDataPoint ("mic_recv", 1000) ** started    [MsgId: MMSG-205180]
+t=00005214ms: ** 1: Execute TC.userDataPoint ("mic_recv", 1000) ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+Notify: Transaction "Transaction 1" ended with a "Pass" status (Duration: 0.0420 Wasted Time: 0.0010).
+Notify: Transaction "Transaction 2" started.
+t=00005272ms: ** 2: Execute TC.userDataPoint ("HTTP_200", 1) ** started    [MsgId: MMSG-205180]
+t=00005288ms: ** 2: Execute TC.userDataPoint ("HTTP_200", 1) ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00005292ms: ** 3: Execute TC.userDataPoint ("HTTP_300", 1) ** started    [MsgId: MMSG-205180]
+t=00005306ms: ** 3: Execute TC.userDataPoint ("HTTP_300", 1) ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00005310ms: ** 4: Execute TC.userDataPoint ("HTTP_400", 1) ** started    [MsgId: MMSG-205180]
+t=00005323ms: ** 4: Execute TC.userDataPoint ("HTTP_400", 1) ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00005327ms: ** 5: Execute TC.userDataPoint ("HTTP_500", 1) ** started    [MsgId: MMSG-205180]
+t=00005338ms: ** 5: Execute TC.userDataPoint ("HTTP_500", 1) ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+Notify: Transaction "Transaction 2" will be skipped - could not calculate the transaction time (duration=0.1040, think_time=0.0010, wasted_time=0.1170).
+t=00005342ms: Internal problem -205177: In TransactionsAdapter::HandleMessage, calling EndTransaction failed    [MsgId: MWAR-205177]
+t=00005345ms: ** 6: Execute TC.log ("This is error message", "Error") ** started    [MsgId: MMSG-205180]
+t=00005356ms: Error -205177: This is error message       Snapshot Info [MSH 1 0]    [MsgId: MERR-205177]
+t=00005360ms: ** 6: Execute TC.log ("This is error message", "Error") ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+Ending iteration 1.
+Waiting 4.766000 seconds for iteration pacing.
+Starting iteration 2.
+Notify: Transaction "Transaction 1" started.
+t=00010196ms: ** 1: Execute TC.userDataPoint ("mic_recv", 1000) ** started    [MsgId: MMSG-205180]
+t=00010216ms: ** 1: Execute TC.userDataPoint ("mic_recv", 1000) ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+Notify: Transaction "Transaction 1" ended with a "Pass" status (Duration: 0.0420 Wasted Time: 0.0010).
+Notify: Transaction "Transaction 2" started.
+Warning: Duplicate transaction name: "Transaction 2". A transaction with the same name has already started, and has not yet ended.
+t=00010238ms: ** 2: Execute TC.userDataPoint ("HTTP_200", 1) ** started    [MsgId: MMSG-205180]
+t=00010250ms: ** 2: Execute TC.userDataPoint ("HTTP_200", 1) ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00010252ms: ** 3: Execute TC.userDataPoint ("HTTP_300", 1) ** started    [MsgId: MMSG-205180]
+t=00010264ms: ** 3: Execute TC.userDataPoint ("HTTP_300", 1) ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00010270ms: ** 4: Execute TC.userDataPoint ("HTTP_400", 1) ** started    [MsgId: MMSG-205180]
+t=00010280ms: ** 4: Execute TC.userDataPoint ("HTTP_400", 1) ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00010282ms: ** 5: Execute TC.userDataPoint ("HTTP_500", 1) ** started    [MsgId: MMSG-205180]
+t=00010296ms: ** 5: Execute TC.userDataPoint ("HTTP_500", 1) ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+Notify: Transaction "Transaction 2" will be skipped - could not calculate the transaction time (duration=0.0630, think_time=0.0050, wasted_time=0.0770).
+t=00010299ms: Internal problem -205177: In TransactionsAdapter::HandleMessage, calling EndTransaction failed    [MsgId: MWAR-205177]
+t=00010308ms: ** 6: Execute TC.log ("This is error message", "Error") ** started    [MsgId: MMSG-205180]
+t=00010308ms: Error -205177: This is error message       Snapshot Info [MSH 2 0]    [MsgId: MERR-205177]
+t=00010313ms: ** 6: Execute TC.log ("This is error message", "Error") ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+Ending iteration 2.
+Ending Vuser...
+Vuser Terminated.

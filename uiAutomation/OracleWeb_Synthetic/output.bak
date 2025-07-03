@@ -1,0 +1,29 @@
+Virtual User Script started at: 6/6/2018 8:49:21 AM
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.55.0 for Windows 7; build 911 (Jul 24 2017 19:46:00)  	[MsgId: MMSG-26983]
+Run mode: Click-and-Script  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)  	[MsgId: MMSG-26988]
+Run-Time Settings file: "C:\Users\Administrator\Desktop\Kally Scripts\OracleWeb_Synthetic\\default.cfg"  	[MsgId: MMSG-27141]
+Current locale is "Western European (Windows)", code page 1252, preferred charset name "windows-1252", Unicode converter name="windows-1252", CRT locale string="English_United States.1252"  	[MsgId: MMSG-27045]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action Action.
+Action.c(4): Notify: Transaction "roy1_pass" started.
+Action.c(5): Notify: Data Point "mic_recv" value = 5000.0000.
+Action.c(6): Notify: Data Point "HTTP_200" value = 5.0000.
+Action.c(7): Error: This is error message
+Action.c(9): Notify: Transaction "roy1_pass" ended with a "Pass" status (Duration: 0.0763).
+Action.c(12): Notify: Transaction "roy1_fail" started.
+Action.c(13): Notify: Data Point "mic_recv" value = 5000.0000.
+Action.c(14): Notify: Data Point "HTTP_200" value = 5.0000.
+Action.c(15): Error: This is error message
+Action.c(17): Notify: Transaction "roy1_fail" ended with a "Fail" status (Duration: 0.0771).
+Action.c(17): Notify: Transaction "roy1_fail" has 1 error message(s).
+Action.c(17): Notify: The 1st error message associated with transaction "roy1_fail" is "Error 0: This is error message"
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

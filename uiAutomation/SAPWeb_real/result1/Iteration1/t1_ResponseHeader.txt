@@ -1,0 +1,13 @@
+HTTP/1.1 200 OK
+Content-Type: text/html
+Last-Modified: Wed, 12 Sep 2012 10:07:20 GMT
+Accept-Ranges: bytes
+ETag: "58ac865ce90cd1:0"
+Server: Microsoft-IIS/7.5
+X-Powered-By: ASP.NET
+Date: Thu, 07 Mar 2019 06:34:49 GMT
+Content-Length: 2602
+Proxy-Connection: Keep-Alive
+Connection: Keep-Alive
+Age: 380
+

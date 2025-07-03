@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\appsadmin\Desktop\SiebelWeb_synthetic
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\appsadmin\desktop\siebelweb_synthetic\\logfile.log
+c:\users\appsadmin\desktop\siebelweb_synthetic\\combined_SiebelWeb_synthetic.c
+c:\users\appsadmin\desktop\siebelweb_synthetic\\pre_cci.c

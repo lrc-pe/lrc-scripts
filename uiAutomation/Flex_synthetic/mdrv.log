@@ -1,0 +1,38 @@
+Virtual User Script started at: 1/31/2019 1:08:10 AM
+Starting action vuser_init.
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action Action.
+Action.c(4): Notify: Transaction "tran" started.
+Action.c(5): Notify: Data Point "mic_recv" value = 1000.0000.
+Action.c(6): Notify: Data Point "HTTP_200" value = 5.0000.
+Action.c(10): Notify: Data Point "RTMP_TUNNELED_ACTIVE_CONNECTIONS" value = 7.0000.
+Action.c(13): Notify: Data Point "RTMP_ACTIVE_CONNECTIONS" value = 5.0000.
+Action.c(16): Notify: Data Point "RTMP_TUNNELED_SEND_RESPONSE_BODY_SIZE" value = 70.0000.
+Action.c(17): Notify: Data Point "RTMP_TUNNELED_SEND_REQUEST_BODY_SIZE" value = 90.0000.
+Action.c(20): Notify: Data Point "RTMP_RECEIVE_SIZE" value = 50.0000.
+Action.c(21): Notify: Data Point "RTMP_SEND_SIZE" value = 70.0000.
+Action.c(24): Notify: Data Point "RTMP_TUNNELD_HANDSHAKE_DURATION" value = 4000.0000.
+Action.c(27): Notify: Data Point "RTMP_TCP_SOCKET_CONNECT_DURATION" value = 2000.0000.
+Action.c(28): Notify: Data Point "RTMP_HANDSHAKE_DURATION" value = 3000.0000.
+Action.c(31): Notify: Data Point "RTMP_TUNNELED_STREAM_DELIVERED_SUCCESSFULLY" value = 15.0000.
+Action.c(34): Notify: Data Point "RTMP_STREAM_DELIVERED_SUCCESSFULLY" value = 10.0000.
+Action.c(38): Notify: Data Point "RTMP_TUNNELED_SEND_STREAM_DURATION_MILISECONDS" value = 20.0000.
+Action.c(42): Notify: Data Point "RTMP_STREAMING_DURATION_MILLISEC" value = 10.0000.
+Action.c(46): Notify: Transaction "tran" ended with a "Pass" status (Duration: 0.2648).
+Action.c(49): Notify: Transaction "tran_fail" started.
+Action.c(50): flex_rtmp_receive("recv_step0") started
+Action.c(50): Error: Invalid RTMP connectionId. Receive failed.
+Action.c(50): Notify: Transaction "tran_fail" ended with a "Fail" status (Duration: 0.0256 Wasted Time: 0.0080).
+Action.c(50): Notify: Transaction "tran_fail" has 0 error message(s).
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
+Warning: Extension amfreplay.dll reports error -1 on call to function ExtPerThreadTerminate
+Warning: Vuser failed to terminate extension.
+Warning: Extension flexreplay.dll reports error -1 on call to function ExtPerThreadTerminate
+Warning: Vuser failed to terminate extension.

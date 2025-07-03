@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Administrator\Desktop\Kally Scripts\OracleWeb_Synthetic
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ec:\users\administrator\desktop\kally scripts\oracleweb_synthetic\\logfile.log
+c:\users\administrator\desktop\kally scripts\oracleweb_synthetic\\combined_OracleWeb_Synthetic.c
+c:\users\administrator\desktop\kally scripts\oracleweb_synthetic\\pre_cci.c

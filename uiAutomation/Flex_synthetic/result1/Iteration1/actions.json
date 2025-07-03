@@ -1,0 +1,22 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [],
+        "transactions": [
+            {
+                "transactionName": "tran",
+                "rawStartTime": 1548925690534,
+                "rawEndTime": 1548925690799,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0
+            },
+            {
+                "transactionName": "tran_fail",
+                "rawStartTime": 1548925690815,
+                "rawEndTime": 1548925690841,
+                "thinkTime": 0.0,
+                "wastedTime": 0.008044719696044922
+            }
+        ]
+    }
+]

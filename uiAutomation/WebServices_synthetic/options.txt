@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\appsadmin\Desktop\My_Synthetic_WS_Script_1_Tans (1)
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\appsadmin\desktop\my_synthetic_ws_script_1_tans (1)\\logfile.log
+c:\users\appsadmin\desktop\my_synthetic_ws_script_1_tans (1)\\combined_My_Synthetic_WS_Script_1_Tans.c
+c:\users\appsadmin\desktop\my_synthetic_ws_script_1_tans (1)\\pre_cci.c

@@ -1,0 +1,92 @@
+<HTML><HEAD><TITLE>Data Emulation or MySAP Correlation rules</TITLE>
+<SCRIPT LANGUAGE = "JavaScript">
+function setCookie(c_name,c_value,expiredays)
+{
+
+var exdate=new Date()
+exdate.setTime(exdate.getTime()+(expiredays*24*3600*1000))
+document.cookie=c_name+ "=" +escape(c_value)+((expiredays==null) ? "" : "; expires="+exdate)
+}
+
+</SCRIPT>
+
+
+</HEAD>
+<BODY>
+Data for Correlation rule "AutoDetect_mySAP1" : 
+<BR>------------------------------- 
+<BR>Rule Name="AutoDetect_mySAP1" 
+<BR>LeftBoundText=[/scripts/wgate/] 
+<BR>RightBoundText=[?]
+<BR>ParamPrefix=[MySapSessionID] 
+<BR>
+<FORM name=test1 method=post action=../cgi-bin/print_request_as_link_simple.asp?/scripts/wgate/my28eMu9uzhmoYDMdeKF1FdiQLieBJJ0?kuku=puku>
+
+<script>
+	document.write ("<input type=hidden name=dummy value=xxx>");
+</script>
+
+<INPUT type=hidden name="gogo" value="12345"><BR>
+
+<INPUT type=submit value="Verify">
+</FORM>
+<BR>------------------------------- <BR><BR>
+
+Data for Correlation rule "AutoDetect_mySAP1" : 
+<BR>------------------------------- 
+<BR>Rule Name="AutoDetect_mySAP1" 
+<BR>LeftBoundText=[/scripts/wgate/] 
+<BR>Alternative RightBoundText=[End of Line]
+<BR>ParamPrefix=[MySapSessionID] 
+<BR>
+<FORM name=test2 method=post action=../cgi-bin/print_request_as_link_simple.asp?/scripts/wgate/zjfhlkldjhYTYIjghdhsg7uhu742323
+>
+
+<script>
+	document.write ("<input type=hidden name=dummy value=xxx>");
+</script>
+
+<INPUT type=hidden name="gogo" value="9999"><BR>
+
+<INPUT type=submit value="Verify">
+</FORM>
+<BR>------------------------------- <BR><BR>
+
+
+Data for Correlation rule "AutoDetect_mySAP2" : 
+<BR>------------------------------- 
+<BR>Rule Name="AutoDetect_mySAP2" - Form field value
+<BR>FieldName=[~SERVICEUNIQUE[1]] 
+<BR>ParamPrefix=[MySapSERVICEUNIQUE] 
+<BR>
+<FORM name=test3 method=post action=../cgi-bin/print_request_as_link_simple.asp>
+
+<script>
+	document.write ("<input type=hidden name=dummy value=xxx>");
+</script>
+
+<INPUT type=hidden name="~SERVICEUNIQUE[1]" value="9999kfjkdfaJKHJsjASfsd98987"><BR>
+
+<INPUT type=submit value="Verify">
+</FORM>
+<BR>------------------------------- <BR><BR>
+
+Data for Correlation rule "AutoDetect_mySAP3" : 
+<BR>------------------------------- 
+<BR>Rule Name="AutoDetect_mySAP3" - Text to enter web_reg_add_cookie function by
+<BR>Search for Text=[SAPWP_version] 
+<BR>Cookie Prefix=[SAPWP_version=] 
+<BR>
+<script>
+
+	setCookie('SAPWP_version','1510196355',1);
+
+</script>
+<br>
+<a href=cookie_print.asp> click here...</a>
+<BR>------------------------------- <BR><BR>
+
+
+
+</BODY>
+</HTML>

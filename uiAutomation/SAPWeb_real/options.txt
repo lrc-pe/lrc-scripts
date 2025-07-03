@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\appsadmin\Desktop\kally\SAPWeb_real
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\appsadmin\desktop\kally\sapweb_real\\logfile.log
+c:\users\appsadmin\desktop\kally\sapweb_real\\combined_SAPWeb_real.c
+c:\users\appsadmin\desktop\kally\sapweb_real\\pre_cci.c

@@ -1,0 +1,87 @@
+Notify: The configuration file "WindowsApplication1.exe.Config" was loaded from the script\bin directory.
+Virtual User Script started at : 10/31/2016 12:21:41 PM
+Starting action vuser_init.
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action Action.
+Action.cs(19): Notify: Transaction "1" started.
+Action.cs(20): Event 1: new Class1();
+Action.cs(23): Notify: Transaction "14" started.
+Action.cs(24): Event 2: Class1_1.f1(5);
+Action.cs(26): Notify: Transaction "1" ended with a "Pass" status (Duration: 0.0126).
+Action.cs(28): Event 3: Class1_1.f2();
+Action.cs(31): Error: Failed to end Transaction "15" (by name). Please check that you made a call to start transaction operation.
+Action.cs(32): Event 4: Class1_1.f3();
+Action.cs(35): Event 5: Class1_1.f4();
+Action.cs(38): Event 6: ((Int32)(Class1_1.f5()));
+Action.cs(41): Notify: Transaction "2" started.
+Action.cs(44): Event 7: ((Int32)(Class1_1.f6(ref j_1)));
+Action.cs(47): Event 8: Class1.f7();
+Action.cs(51): Event 9: Class1_1.f8(ref struct_test_1);
+Action.cs(55): Event 10: new class_test();
+Action.cs(57): Notify: Transaction "2" ended with a "Pass" status (Duration: 0.0024).
+Action.cs(59): Event 11: Class1_1.f9(ref class_test_1);
+Action.cs(62): Notify: Transaction "14" ended with a "Pass" status (Duration: 0.0093).
+Action.cs(63): Event 12: new class_test();
+Action.cs(66): Notify: Transaction "13" started.
+Action.cs(67): Event 13: Class1_1.f10(5D, class_test_3, out outTest_1);
+Action.cs(70): Notify: Transaction "3" started.
+Action.cs(71): Event 14: Class1_1.f11(5, out outTest_2, "Hello!");
+Action.cs(80): Event 15: Class1_1.f12(nums_1);
+Action.cs(83): Event 16: new class_test();
+Action.cs(86): Event 17: new class_test();
+Action.cs(89): Event 18: new class_test();
+Action.cs(92): Notify: Transaction "12" started.
+Action.cs(93): Event 19: new class_test();
+Action.cs(96): Notify: Transaction "11" started.
+Action.cs(97): Event 20: new class_test();
+Action.cs(99): Notify: Transaction "3" ended with a "Pass" status (Duration: 0.0060).
+Action.cs(101): Notify: Transaction "10" started.
+Action.cs(108): Event 21: Class1_1.f13(structs_1);
+Action.cs(117): Event 22: Class1_1.f14(ref structs_2, out retArr_1);
+Action.cs(119): Notify: Transaction "11" ended with a "Pass" status (Duration: 0.0050).
+Action.cs(120): Notify: Transaction "12" ended with a "Pass" status (Duration: 0.0059).
+Action.cs(122): Notify: Transaction "4" started.
+Action.cs(123): Event 23: new class_test();
+Action.cs(125): Notify: Transaction "10" ended with a "Pass" status (Duration: 0.0026).
+Action.cs(127): Event 24: new class_test();
+Action.cs(130): Event 25: new class_test();
+Action.cs(132): Notify: Transaction "13" ended with a "Pass" status (Duration: 0.0132).
+Action.cs(134): Event 26: new class_test();
+Action.cs(136): Notify: Transaction "4" ended with a "Pass" status (Duration: 0.0041).
+Action.cs(138): Event 27: new class_test();
+Action.cs(147): Event 28: Class1_1.f15(ref structs_8, out retArr_2);
+Action.cs(161): Event 29: Class1_1.f16(ref structs_9, out outArr_1);
+Action.cs(166): Notify: Transaction "5" started.
+Action.cs(167): Event 30: Class1_1.f4();
+Action.cs(172): Event 31: new class_test();
+Action.cs(176): Event 32: Class1_1.f10(5D, class_test_14, out Tempstruct_test_1);
+Action.cs(191): Event 33: Class1_1.f16(ref structs_11, out outArr_2);
+Action.cs(193): Error: Failed to end Transaction "15" (by name). Please check that you made a call to start transaction operation.
+Action.cs(196): Notify: Transaction "5" ended with a "Pass" status (Duration: 0.0018).
+Action.cs(198): Event 34: Class1_1.f11(5, out outTest_3, "Hello!");
+Action.cs(201): Notify: Transaction "6" started.
+Action.cs(202): Event 35: new class_test();
+Action.cs(206): Event 36: Class1_1.f10(5D, class_test_15, out Tempstruct_test_2);
+Action.cs(212): Event 37: new class_test();
+Action.cs(213): Notify: Transaction "6" ended with a "Pass" status (Duration: 0.0048).
+Action.cs(216): Notify: Transaction "7" started.
+Action.cs(217): Event 38: new class_test();
+Action.cs(220): Notify: Transaction "7" ended with a "Pass" status (Duration: 0.0004).
+Action.cs(221): Event 39: new class_test();
+Action.cs(224): Notify: Transaction "8" started.
+Action.cs(225): Event 40: new class_test();
+Action.cs(228): Notify: Transaction "8" ended with a "Pass" status (Duration: 0.0004).
+Action.cs(229): Event 41: new class_test();
+Action.cs(232): Notify: Transaction "9" started.
+Action.cs(239): Event 42: Class1_1.f13(structs_12);
+Action.cs(242): Notify: Transaction "9" ended with a "Pass" status (Duration: 0.0003).
+Action.cs(243): Notify: Data Point "mic_recv" value = 100.0000.
+Action.cs(244): Notify: Data Point "HTTP_200" value = 1.0000.
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

@@ -1,0 +1,86 @@
+HookAction EXCLUDE, Method WindowsApplication1.Form1::Main
+
+[5748]	HookAction INCLUDE, Method ClassLibrary1.Class1::.ctor
+
+[5748]	HookAction INCLUDE, Method ClassLibrary1.Class1::f1
+
+[5748]	HookAction INCLUDE, Method ClassLibrary1.Class1::f2
+
+[5748]	HookAction INCLUDE, Method ClassLibrary1.Class1::f3
+
+[5748]	HookAction INCLUDE, Method ClassLibrary1.Class1::f4
+
+[5748]	HookAction INCLUDE, Method ClassLibrary1.Class1::f5
+
+[5748]	HookAction INCLUDE, Method ClassLibrary1.Class1::f6
+
+[5748]	HookAction INCLUDE, Method ClassLibrary1.Class1::f7
+
+[5748]	HookAction INCLUDE, Method ClassLibrary1.Class1::f8
+
+[5748]	HookAction INCLUDE, Method ClassLibrary1.class_test::.ctor
+
+[5748]	HookAction INCLUDE, Method ClassLibrary1.Class1::f9
+
+[5748]	HookAction INCLUDE, Method ClassLibrary1.class_test::.ctor
+
+[5748]	HookAction INCLUDE, Method ClassLibrary1.Class1::f10
+
+[5748]	HookAction INCLUDE, Method ClassLibrary1.Class1::f11
+
+[5748]	HookAction INCLUDE, Method ClassLibrary1.Class1::f12
+
+[5748]	HookAction INCLUDE, Method ClassLibrary1.class_test::.ctor
+
+[5748]	HookAction INCLUDE, Method ClassLibrary1.class_test::.ctor
+
+[5748]	HookAction INCLUDE, Method ClassLibrary1.class_test::.ctor
+
+[5748]	HookAction INCLUDE, Method ClassLibrary1.class_test::.ctor
+
+[5748]	HookAction INCLUDE, Method ClassLibrary1.class_test::.ctor
+
+[5748]	HookAction INCLUDE, Method ClassLibrary1.Class1::f13
+
+[5748]	HookAction INCLUDE, Method ClassLibrary1.Class1::f14
+
+[5748]	HookAction INCLUDE, Method ClassLibrary1.class_test::.ctor
+
+[5748]	HookAction INCLUDE, Method ClassLibrary1.class_test::.ctor
+
+[5748]	HookAction INCLUDE, Method ClassLibrary1.class_test::.ctor
+
+[5748]	HookAction INCLUDE, Method ClassLibrary1.class_test::.ctor
+
+[5748]	HookAction INCLUDE, Method ClassLibrary1.class_test::.ctor
+
+[5748]	HookAction INCLUDE, Method ClassLibrary1.Class1::f15
+
+[5748]	HookAction INCLUDE, Method ClassLibrary1.Class1::f16
+
+[5748]	HookAction INCLUDE, Method ClassLibrary1.Class1::f4
+
+[5748]	HookAction INCLUDE, Method ClassLibrary1.class_test::.ctor
+
+[5748]	HookAction INCLUDE, Method ClassLibrary1.Class1::f10
+
+[5748]	HookAction INCLUDE, Method ClassLibrary1.Class1::f16
+
+[5748]	HookAction INCLUDE, Method ClassLibrary1.Class1::f11
+
+[5748]	HookAction INCLUDE, Method ClassLibrary1.class_test::.ctor
+
+[5748]	HookAction INCLUDE, Method ClassLibrary1.Class1::f10
+
+[5748]	HookAction INCLUDE, Method ClassLibrary1.class_test::.ctor
+
+[5748]	HookAction INCLUDE, Method ClassLibrary1.class_test::.ctor
+
+[5748]	HookAction INCLUDE, Method ClassLibrary1.class_test::.ctor
+
+[5748]	HookAction INCLUDE, Method ClassLibrary1.class_test::.ctor
+
+[5748]	HookAction INCLUDE, Method ClassLibrary1.class_test::.ctor
+
+[5748]	HookAction INCLUDE, Method ClassLibrary1.Class1::f13
+

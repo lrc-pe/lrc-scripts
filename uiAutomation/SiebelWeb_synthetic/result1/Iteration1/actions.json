@@ -1,0 +1,22 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [],
+        "transactions": [
+            {
+                "transactionName": "siebelWeb_trans_pass",
+                "rawStartTime": 1546845813891,
+                "rawEndTime": 1546845813968,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0
+            },
+            {
+                "transactionName": "siebelWeb_trans_fail",
+                "rawStartTime": 1546845813984,
+                "rawEndTime": 1546845814046,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0
+            }
+        ]
+    }
+]

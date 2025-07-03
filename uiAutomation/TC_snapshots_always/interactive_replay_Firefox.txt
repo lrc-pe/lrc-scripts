@@ -1,0 +1,42 @@
+Virtual User Script started at : 2016-11-18 11:04:26
+TruClient Replay for LoadRunner 12.53.0, build 1203. OS: Windows 7, Browser: Firefox, initialized on 2016/11/18 at 11:04:25 (0000.000s)
+Running Vuser...
+Starting iteration 1.
+Notify: Transaction "Transaction 1" started.
+t=00001977ms: ** 1: Navigate to http://52.39.153.71 ** started    [MsgId: MMSG-205180]
+t=00002628ms: ** 1: Navigate to http://52.39.153.71 ** successfully completed with end event 'Document Loaded'    [MsgId: MMSG-205180]
+Notify: Transaction "Transaction 1" ended with a "Pass" status (Duration: 0.7300 Wasted Time: 0.2020).
+Notify: Transaction "Transaction 2" started.
+t=00003144ms: ** 2: Click on Go to second page button ** started    [MsgId: MMSG-205180]
+t=00003890ms: ** 2: Click on Go to second page button ** successfully completed with end event 'Document Loaded'    [MsgId: MMSG-205180]
+Notify: Transaction "Transaction 2" ended with a "Pass" status (Duration: 0.7630 Wasted Time: 0.2010).
+t=00004543ms: ** 3: Click on Back to home button ** started    [MsgId: MMSG-205180]
+t=00005103ms: ** 3: Click on Back to home button ** successfully completed with end event 'Document Loaded'    [MsgId: MMSG-205180]
+Notify: Transaction "Transaction 3" started.
+t=00005621ms: ** 4: Click on Go to third page button ** started    [MsgId: MMSG-205180]
+t=00006251ms: ** 4: Click on Go to third page button ** successfully completed with end event 'Document Loaded'    [MsgId: MMSG-205180]
+Notify: Transaction "Transaction 3" ended with a "Pass" status (Duration: 0.6430 Wasted Time: 0.2030).
+t=00006824ms: ** 5: Click on Back to home button ** started    [MsgId: MMSG-205180]
+t=00007557ms: ** 5: Click on Back to home button ** successfully completed with end event 'Document Loaded'    [MsgId: MMSG-205180]
+Notify: Transaction "Transaction 4" started.
+t=00008152ms: ** 6: Click on Go to fourth page button ** started    [MsgId: MMSG-205180]
+t=00016833ms: ** 6: Click on Go to fourth page button ** successfully completed with end event 'Document Loaded'    [MsgId: MMSG-205180]
+Notify: Transaction "Transaction 4" ended with a "Pass" status (Duration: 8.7760 Wasted Time: 0.2010).
+t=00017352ms: ** 7: Click on Back to home button ** started    [MsgId: MMSG-205180]
+t=00021473ms: ** 7: Click on Back to home button ** successfully completed with end event 'Document Loaded'    [MsgId: MMSG-205180]
+Notify: Transaction "Transaction 5" started.
+t=00022069ms: ** 8: Navigate to "taobao.com" ** started    [MsgId: MMSG-205180]
+t=00044311ms: Warning -204676: Failed to connect to server "localhost.wwbizsrv.alibaba.com:4013": Connection timed out    [MsgId: MWAR-204676]
+t=00048411ms: Warning -204676: Failed to connect to server "localhost.wwbizsrv.alibaba.com:4813": Connection timed out    [MsgId: MWAR-204676]
+t=00050960ms: ** 8: Navigate to taobao.com ** successfully completed with end event 'Document Loaded'    [MsgId: MMSG-205180]
+Notify: Transaction "Transaction 5" ended with a "Pass" status (Duration: 28.9870).
+Notify: Transaction "Transaction 6" started.
+t=00051477ms: ** 10: Navigate to "http://www.flipkart.com/" ** started    [MsgId: MMSG-205180]
+t=00097726ms: ** 10: Navigate to http://www.flipkart.com/ ** successfully completed with end event 'Step synchronous network completed'    [MsgId: MMSG-205180]
+Notify: Transaction "Transaction 6" ended with a "Pass" status (Duration: 46.2760).
+Notify: Transaction "Transaction 7" started.
+t=00098259ms: ** 12: Click on Tops, Dresses...Minimum... link ** started    [MsgId: MMSG-205180]
+t=00110356ms: ** 12: Click on Tops, Dresses...Minimum... link ** was stopped    [MsgId: MMSG-205180]
+Notify: Transaction "Transaction 7" ended with a "Pass" status (Duration: 12.1250).
+Ending iteration 1.
+Abort was called from an action

@@ -1,0 +1,66 @@
+[General]
+Type=MQTT
+DefaultCfg=default.cfg
+MajorVersion=12
+MinorVersion=56
+ParameterFile=
+GlobalParameterFile=
+RunType=cci
+ActionLogicExt=action_logic
+LastActiveAction=Action
+Encoding=UTF8
+DevelopTool=Vugen
+LastModifyVer=12.56.0.985
+ActiveTypes=MQTT
+AdditionalTypes=MQTT
+GenerateTypes=MQTT
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=C
+LastCodeGenerationVer=
+DisableRegenerate=0
+Description=
+ScriptLocale=en-US
+[ExtraFiles]
+globals.h=
+[Actions]
+vuser_init=vuser_init.c
+Action=Action.c
+vuser_end=vuser_end.c
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+Default Profile=default.cfg
+[RunLogicFiles]
+Default Profile=default.usp
+[Modified Actions]
+vuser_init=1
+Action=1
+vuser_end=1
+[Recorded Actions]
+vuser_init=0
+Action=0
+vuser_end=0
+[Replayed Actions]
+vuser_init=1
+Action=1
+vuser_end=1
+[Interpreters]
+vuser_init=cci
+Action=cci
+vuser_end=cci
+[TransactionsOrder]
+Order="pass_Transaction__*delimiter*__failed_Transaction"
+[StateManagement]
+LastReplayStatus=1
+[ActiveReplay]
+LastReplayedRunName=
+ActiveRunName=
+[Transactions]
+pass_Transaction=
+failed_Transaction=
+[UserDataPoint]
+MQTT_publish=
+MQTT_publish_payload=
+MQTT_connection=
+MQTT_inflight_message=

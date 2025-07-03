@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\appsadmin\Desktop\Flex_synthetic_flexGraphs
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\appsadmin\desktop\flex_synthetic_flexgraphs\\logfile.log
+c:\users\appsadmin\desktop\flex_synthetic_flexgraphs\\combined_Flex_synthetic_flexGraphs.c
+c:\users\appsadmin\desktop\flex_synthetic_flexgraphs\\pre_cci.c

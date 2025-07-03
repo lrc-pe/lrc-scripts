@@ -1,0 +1,27 @@
+Virtual User Script started at: 1/6/2019 11:23:33 PM
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.60.0 for Windows 2008 R2; build 971 (Aug 09 2018 11:27:13)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\appsadmin\Desktop\SiebelWeb_synthetic\\default.cfg"  	[MsgId: MMSG-27141]
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.
+Action.c(3): Notify: Transaction "siebelWeb_trans_pass" started.
+Action.c(5): Notify: Data Point "mic_recv" value = 5000.0000.
+Action.c(6): Notify: Data Point "HTTP_200" value = 5.0000.
+Action.c(7): Error: this is error message
+Action.c(10): Notify: Transaction "siebelWeb_trans_pass" ended with a "Pass" status (Duration: 0.0776).
+Action.c(12): Notify: Transaction "siebelWeb_trans_fail" started.
+Action.c(14): Notify: Data Point "mic_recv" value = 5000.0000.
+Action.c(15): Notify: Data Point "HTTP_200" value = 5.0000.
+Action.c(19): Notify: Transaction "siebelWeb_trans_fail" ended with a "Fail" status (Duration: 0.0621).
+Action.c(19): Notify: Transaction "siebelWeb_trans_fail" has 0 error message(s).
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

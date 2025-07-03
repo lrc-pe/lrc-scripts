@@ -1,0 +1,8 @@
+parameters:                     #The parameters header, it must be the first line of the file
+  - name: myParam1              #The name of the parameter that can later be used in the code
+    type: csv                   #The type of the data source of the parameter. The valid values are: csv 
+    fileName: myParam1.csv      #The name of the file that has all the values for this parameter
+    columnName: ID1             #The column name used to draw values for this parameter
+    nextValue: iteration        #The logic used to know when to retrieve new values
+    nextRow: sequential         #The loogic used to know how to retrieve new values
+    onEnd: loop                 #What happens when there are no more values remaining and the script needs another value

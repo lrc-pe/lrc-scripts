@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\Administrator\Desktop\Scripts\Snapshots\snapshots_always_FF
+-IC:\Program Files (x86)\HP\LoadRunner\include
+-ec:\users\administrator\desktop\scripts\snapshots\snapshots_always_ff\\logfile.log
+c:\users\administrator\desktop\scripts\snapshots\snapshots_always_ff\\combined_snapshots_always_FF.c
+c:\users\administrator\desktop\scripts\snapshots\snapshots_always_ff\\pre_cci.c

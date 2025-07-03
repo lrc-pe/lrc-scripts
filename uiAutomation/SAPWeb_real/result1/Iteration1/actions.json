@@ -1,0 +1,22 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: mySAPCorrelations.html",
+                "infFile": "t1.inf",
+                "time": 1551940917836
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "trans1_sapweb",
+                "rawStartTime": 1551940917476,
+                "rawEndTime": 1551940917837,
+                "thinkTime": 0.0,
+                "wastedTime": 0.21859335899353028
+            }
+        ]
+    }
+]

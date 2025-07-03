@@ -1,0 +1,44 @@
+Virtual User Script started at : 2017-09-19 08:17:24
+TruClient Replay for LoadRunner 12.53.0, build 1203. OS: Windows 7, Browser: Firefox, initialized on 2017/09/19 at 08:17:22 (0000.000s)
+Running Vuser...
+Starting iteration 1.
+Notify: Transaction "Transaction 1" started.
+t=00003626ms: ** 1: Execute TC.userDataPoint ("mic_recv", 1000) ** started    [MsgId: MMSG-205180]
+t=00003668ms: ** 1: Execute TC.userDataPoint ("mic_recv", 1000) ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+Notify: Transaction "Transaction 1" ended with a "Pass" status (Duration: 0.0780 Wasted Time: 0.0010).
+Notify: Transaction "Transaction 2" started.
+t=00003724ms: ** 2: Execute TC.userDataPoint ("HTTP_200", 1) ** started    [MsgId: MMSG-205180]
+t=00003945ms: ** 2: Execute TC.userDataPoint ("HTTP_200", 1) ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00003945ms: ** 3: Execute TC.userDataPoint ("HTTP_300", 1) ** started    [MsgId: MMSG-205180]
+t=00003945ms: ** 3: Execute TC.userDataPoint ("HTTP_300", 1) ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00003946ms: ** 4: Execute TC.userDataPoint ("HTTP_400", 1) ** started    [MsgId: MMSG-205180]
+t=00003946ms: ** 4: Execute TC.userDataPoint ("HTTP_400", 1) ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00003946ms: ** 5: Execute TC.userDataPoint ("HTTP_500", 1) ** started    [MsgId: MMSG-205180]
+t=00003946ms: ** 5: Execute TC.userDataPoint ("HTTP_500", 1) ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+Notify: Transaction "Transaction 2" ended with a "Pass" status (Duration: 0.2490 Think Time: 0.0190 Wasted Time: 0.1930).
+t=00004136ms: ** 6: Execute TC.log ("This is error message", "Error") ** started    [MsgId: MMSG-205180]
+t=00004136ms: Error -205177: This is error message       Snapshot Info [MSH 1 0]    [MsgId: MERR-205177]
+t=00004136ms: ** 6: Execute TC.log ("This is error message", "Error") ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+Ending iteration 1.
+Waiting 4.059000 seconds for iteration pacing.
+Starting iteration 2.
+Notify: Transaction "Transaction 1" started.
+t=00008526ms: ** 1: Execute TC.userDataPoint ("mic_recv", 1000) ** started    [MsgId: MMSG-205180]
+t=00008567ms: ** 1: Execute TC.userDataPoint ("mic_recv", 1000) ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+Notify: Transaction "Transaction 1" ended with a "Pass" status (Duration: 0.0650 Wasted Time: 0.0010).
+Notify: Transaction "Transaction 2" started.
+t=00008605ms: ** 2: Execute TC.userDataPoint ("HTTP_200", 1) ** started    [MsgId: MMSG-205180]
+t=00008901ms: ** 2: Execute TC.userDataPoint ("HTTP_200", 1) ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00008901ms: ** 3: Execute TC.userDataPoint ("HTTP_300", 1) ** started    [MsgId: MMSG-205180]
+t=00008901ms: ** 3: Execute TC.userDataPoint ("HTTP_300", 1) ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00008902ms: ** 4: Execute TC.userDataPoint ("HTTP_400", 1) ** started    [MsgId: MMSG-205180]
+t=00008902ms: ** 4: Execute TC.userDataPoint ("HTTP_400", 1) ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+t=00008902ms: ** 5: Execute TC.userDataPoint ("HTTP_500", 1) ** started    [MsgId: MMSG-205180]
+t=00008959ms: ** 5: Execute TC.userDataPoint ("HTTP_500", 1) ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+Notify: Transaction "Transaction 2" ended with a "Pass" status (Duration: 0.3870 Think Time: 0.0280 Wasted Time: 0.2580).
+t=00009013ms: ** 6: Execute TC.log ("This is error message", "Error") ** started    [MsgId: MMSG-205180]
+t=00009252ms: Error -205177: This is error message       Snapshot Info [MSH 2 0]    [MsgId: MERR-205177]
+t=00009252ms: ** 6: Execute TC.log ("This is error message", "Error") ** successfully completed with end event 'Action completed'    [MsgId: MMSG-205180]
+Ending iteration 2.
+Ending Vuser...
+Vuser Terminated.

@@ -1,1 +1,8 @@
 type: lrc-data-files
+targets: 
+  - common
+  - regression/full
+  - nightly
+  - sanity
+  - redundant
+  - invalid

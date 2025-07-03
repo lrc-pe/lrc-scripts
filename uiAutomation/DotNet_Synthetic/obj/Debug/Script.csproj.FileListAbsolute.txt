@@ -1,0 +1,8 @@
+C:\Users\Administrator\Documents\VuGen\Scripts\DotNet15\bin\Script.dll
+C:\Users\Administrator\Documents\VuGen\Scripts\DotNet15\bin\Script.pdb
+C:\Users\Administrator\Documents\VuGen\Scripts\DotNet15\bin\ClassLibrary1.dll
+C:\Users\Administrator\Documents\VuGen\Scripts\DotNet15\bin\DotNetReplayUtils.dll
+C:\Users\Administrator\Documents\VuGen\Scripts\DotNet15\bin\LoadRunner.dll
+C:\Users\Administrator\Documents\VuGen\Scripts\DotNet15\obj\Debug\Script.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\VuGen\Scripts\DotNet15\obj\Debug\Script.dll
+C:\Users\Administrator\Documents\VuGen\Scripts\DotNet15\obj\Debug\Script.pdb

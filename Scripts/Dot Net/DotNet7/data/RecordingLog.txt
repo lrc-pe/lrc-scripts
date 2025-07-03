@@ -1,0 +1,147 @@
+[API Trapper      (2228:1b74)] Recording in 32-bit mode: C:\Users\Administrator\Desktop\samples\WindowsApplication1\WindowsApplication1\bin\x86\Release\WindowsApplication1.exe
+[dotNet2          (2228:1b74)] 
+Object Type  : System.Void
+Instance ID  : 0
+Method       : ClassLibrary1.Class1::.ctor
+--------------------------------------------------
+[dotNet2          (2228:1b74)] 
+Object Type  : ClassLibrary1.Class1
+Instance ID  : 2
+Method       : ClassLibrary1.Class1::f1
+--------------------------------------------------
+[dotNet2          (2228:1b74)] 
+Object Type  : ClassLibrary1.Class1
+Instance ID  : 2
+Method       : ClassLibrary1.Class1::f2
+--------------------------------------------------
+[dotNet2          (2228:1b74)] 
+Object Type  : ClassLibrary1.Class1
+Instance ID  : 2
+Method       : ClassLibrary1.Class1::f3
+--------------------------------------------------
+[dotNet2          (2228:1b74)] 
+Object Type  : ClassLibrary1.Class1
+Instance ID  : 2
+Method       : ClassLibrary1.Class1::f4
+--------------------------------------------------
+[dotNet2          (2228:1b74)] 
+Object Type  : ClassLibrary1.Class1
+Instance ID  : 2
+Method       : ClassLibrary1.Class1::f5
+--------------------------------------------------
+[dotNet2          (2228:1b74)] 
+Object Type  : ClassLibrary1.Class1
+Instance ID  : 2
+Method       : ClassLibrary1.Class1::f6
+--------------------------------------------------
+[dotNet2          (2228:1b74)] 
+Object Type  : System.Void
+Instance ID  : 0
+Method       : ClassLibrary1.Class1::f7
+--------------------------------------------------
+[dotNet2          (2228:1b74)] 
+Object Type  : ClassLibrary1.Class1
+Instance ID  : 2
+Method       : ClassLibrary1.Class1::f8
+--------------------------------------------------
+[dotNet2          (2228:1b74)] 
+Object Type  : System.Void
+Instance ID  : 0
+Method       : ClassLibrary1.class_test::.ctor
+--------------------------------------------------
+[dotNet2          (2228:1b74)] 
+Object Type  : ClassLibrary1.Class1
+Instance ID  : 2
+Method       : ClassLibrary1.Class1::f9
+--------------------------------------------------
+[dotNet2          (2228:1b74)] 
+Object Type  : System.Void
+Instance ID  : 0
+Method       : ClassLibrary1.class_test::.ctor
+--------------------------------------------------
+[dotNet2          (2228:1b74)] 
+Object Type  : ClassLibrary1.Class1
+Instance ID  : 2
+Method       : ClassLibrary1.Class1::f10
+--------------------------------------------------
+[dotNet2          (2228:1b74)] 
+Object Type  : ClassLibrary1.Class1
+Instance ID  : 2
+Method       : ClassLibrary1.Class1::f11
+--------------------------------------------------
+[dotNet2          (2228:1b74)] 
+Object Type  : ClassLibrary1.Class1
+Instance ID  : 2
+Method       : ClassLibrary1.Class1::f12
+--------------------------------------------------
+[dotNet2          (2228:1b74)] 
+Object Type  : System.Void
+Instance ID  : 0
+Method       : ClassLibrary1.class_test::.ctor
+--------------------------------------------------
+[dotNet2          (2228:1b74)] 
+Object Type  : System.Void
+Instance ID  : 0
+Method       : ClassLibrary1.class_test::.ctor
+--------------------------------------------------
+[dotNet2          (2228:1b74)] 
+Object Type  : System.Void
+Instance ID  : 0
+Method       : ClassLibrary1.class_test::.ctor
+--------------------------------------------------
+[dotNet2          (2228:1b74)] 
+Object Type  : System.Void
+Instance ID  : 0
+Method       : ClassLibrary1.class_test::.ctor
+--------------------------------------------------
+[dotNet2          (2228:1b74)] 
+Object Type  : System.Void
+Instance ID  : 0
+Method       : ClassLibrary1.class_test::.ctor
+--------------------------------------------------
+[dotNet2          (2228:1b74)] 
+Object Type  : ClassLibrary1.Class1
+Instance ID  : 2
+Method       : ClassLibrary1.Class1::f13
+--------------------------------------------------
+[dotNet2          (2228:1b74)] 
+Object Type  : ClassLibrary1.Class1
+Instance ID  : 2
+Method       : ClassLibrary1.Class1::f14
+--------------------------------------------------
+[dotNet2          (2228:1b74)] 
+Object Type  : System.Void
+Instance ID  : 0
+Method       : ClassLibrary1.class_test::.ctor
+--------------------------------------------------
+[dotNet2          (2228:1b74)] 
+Object Type  : System.Void
+Instance ID  : 0
+Method       : ClassLibrary1.class_test::.ctor
+--------------------------------------------------
+[dotNet2          (2228:1b74)] 
+Object Type  : System.Void
+Instance ID  : 0
+Method       : ClassLibrary1.class_test::.ctor
+--------------------------------------------------
+[dotNet2          (2228:1b74)] 
+Object Type  : System.Void
+Instance ID  : 0
+Method       : ClassLibrary1.class_test::.ctor
+--------------------------------------------------
+[dotNet2          (2228:1b74)] 
+Object Type  : System.Void
+Instance ID  : 0
+Method       : ClassLibrary1.class_test::.ctor
+--------------------------------------------------
+[dotNet2          (2228:1b74)] 
+Object Type  : ClassLibrary1.Class1
+Instance ID  : 2
+Method       : ClassLibrary1.Class1::f15
+--------------------------------------------------
+[dotNet2          (2228:1b74)] 
+Object Type  : ClassLibrary1.Class1
+Instance ID  : 2
+Method       : ClassLibrary1.Class1::f16
+--------------------------------------------------
+[API Trapper      (138c:1da4)] Recording in 64-bit mode: C:\Program Files\Internet Explorer\iexplore.exe

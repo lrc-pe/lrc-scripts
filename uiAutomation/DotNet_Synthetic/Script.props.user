@@ -1,0 +1,6 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <DebugProgram>C:\Program Files (x86)\HP\LoadRunner\bin\mdrv.exe</DebugProgram>
+    <VuserName>$(SolutionDir)DotNet_Synthetic.usr</VuserName>
+  </PropertyGroup>
+</Project>

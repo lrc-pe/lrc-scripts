@@ -1,0 +1,24 @@
+Virtual User Script started at: 12/25/2018 1:21:55 AM
+Starting action vuser_init.
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action Action.
+Action.c(3): Notify: Transaction "my_ws_trans_pass" started.
+Action.c(5): Notify: Data Point "mic_recv" value = 5000.0000.
+Action.c(6): Notify: Data Point "HTTP_200" value = 5.0000.
+Action.c(7): Error: this is error message
+Action.c(8): lr_think_time: 15.00 seconds (recorded think time was 5.00 seconds).
+Action.c(10): Notify: Transaction "my_ws_trans_pass" ended with a "Pass" status (Duration: 15.0819 Think Time: 15.0078).
+Action.c(12): Notify: Transaction "my_ws_trans_fail" started.
+Action.c(14): Notify: Data Point "mic_recv" value = 5000.0000.
+Action.c(15): Notify: Data Point "HTTP_200" value = 5.0000.
+Action.c(17): lr_think_time: 15.00 seconds (recorded think time was 5.00 seconds).
+Action.c(19): Notify: Transaction "my_ws_trans_fail" ended with a "Fail" status (Duration: 15.0690 Think Time: 15.0067).
+Action.c(19): Notify: Transaction "my_ws_trans_fail" has 0 error message(s).
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
