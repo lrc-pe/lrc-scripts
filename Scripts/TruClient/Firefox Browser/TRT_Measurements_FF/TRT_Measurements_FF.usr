@@ -1,0 +1,62 @@
+[Recorded Actions]
+Lib-View=1
+vuser_init=0
+Action=0
+vuser_end=0
+[VisibleActions]
+Lib-View=1
+vuser_init=1
+Action=1
+vuser_end=1
+[Actions]
+Lib-View=Lib-View.c
+vuser_init=vuser_init.c
+Action=Action.c
+vuser_end=vuser_end.c
+[ExtraFiles]
+JS-functions.js=
+globals.h=
+C-functions.c=
+[General]
+AdditionalTypes=TruClientWeb
+DevelopTool=Vugen
+GlobalParameterFile=
+Type=TruClientWeb
+DefaultCfg=default.cfg
+LastModifyVer=12.50.0.0
+NewFunctionHeader=1
+GenerateTypes=TruClientWeb
+ParameterFile=TRT_Measurements_FF.prm
+MajorVersion=12
+ActiveTypes=TruClientWeb
+LastActiveAction=Action
+MinorVersion=50
+[RunLogicFiles]
+Default Profile=default.usp
+[CfgFiles]
+Default Profile=default.cfg
+[VuserProfiles]
+Profiles=Default Profile
+[Interpreters]
+Lib-View=no
+vuser_init=no
+Action=no
+vuser_end=no
+[Modified Actions]
+Lib-View=0
+vuser_init=0
+Action=0
+vuser_end=0
+[Replayed Actions]
+Lib-View=0
+vuser_init=0
+Action=0
+vuser_end=0
+[TransactionsOrder]
+Order="1 Seconds__*delimiter*__2 Seconds__*delimiter*__3 Seconds__*delimiter*__4 Seconds__*delimiter*__5 Seconds"
+[Transactions]
+"1 Seconds"=
+"2 Seconds"=
+"3 Seconds"=
+"4 Seconds"=
+"5 Seconds"=

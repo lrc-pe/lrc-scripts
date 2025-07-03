@@ -1,0 +1,13 @@
+[ObjectProperties]
+type_as_string=GuiButton
+component_name=btn[15]
+Text=
+Tooltip=Log off   (Shift+F3)
+Top=4
+Left=282
+Height=22
+Width=22
+[ParentWindowData]
+ParentWindowTitle=SAP Easy Access  -  User menu for Mercury QA01
+Snapshot=snapshot1020
+NoHighlightSnapshot=snapshot1019

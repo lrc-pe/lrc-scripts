@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\CHEJAR~1.ASI\AppData\Local\Temp\TC\Scripts\TC_MeasurementOnPeaceFull_FF
+-IC:\Program Files (x86)\HP\TruClient\include
+-ec:\users\chejar~1.asi\appdata\local\temp\tc\scripts\tc_measurementonpeacefull_ff\\logfile.log
+c:\users\chejar~1.asi\appdata\local\temp\tc\scripts\tc_measurementonpeacefull_ff\\combined_TC_MeasurementOnPeaceFull_FF.c
+c:\users\chejar~1.asi\appdata\local\temp\tc\scripts\tc_measurementonpeacefull_ff\\pre_cci.c

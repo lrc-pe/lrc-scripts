@@ -1,0 +1,19 @@
+Virtual User Script started at : 3/22/2016 12:31:04 AM
+Starting action vuser_init.
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action Action.
+Action.c(4): Opened new connection to server "calderone"
+Action.c(8): Selected active connection "con[0]"
+Action.c(10): Selected active session "ses[0]"
+Action.c(12): Selected active window "wnd[0]"
+Action.c(14): Resized window to 17x98
+Action.c(24): Error: Logon failed. Verify that the username and password that you provided are valid
+Action.c(24): Additional info: the text of the status bar is "Name or password is incorrect. Please re-enter"
+Action.c(24): Additional info: the title of the active window is "SAP R/3"
+Abort was called from an action.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.

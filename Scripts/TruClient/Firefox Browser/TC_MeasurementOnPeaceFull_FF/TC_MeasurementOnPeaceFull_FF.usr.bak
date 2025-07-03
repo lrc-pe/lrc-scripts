@@ -1,0 +1,48 @@
+[General]
+Type=@@TestType@@
+DefaultCfg=default.cfg
+MajorVersion=8
+MinorVersion=1
+ParameterFile=
+GlobalParameterFile=
+NewFunctionHeader=1
+LastActiveAction=Action
+
+
+[Actions]
+vuser_init=vuser_init.c
+Action=Action.c
+vuser_end=vuser_end.c
+Lib-View=Lib-View.c
+
+[VisibleActions]
+vuser_init=1
+Action=1
+vuser_end=1
+Lib-View=1
+
+[VuserProfiles]
+Profiles=Default Profile
+
+[CfgFiles]
+Default Profile=default.cfg
+
+[RunLogicFiles]
+Default Profile=default.usp
+
+[ExtraFiles]
+JS-functions.js=
+C-functions.c=
+globals.h=
+
+[Interpreters]
+Lib-View=no
+vuser_init=no
+Action=no
+vuser_end=no
+
+[Recorded Actions]
+vuser_init=0
+Action=0
+vuser_end=0
+Lib-View=1

@@ -1,0 +1,12 @@
+Virtual User Script started at : 2016-06-29 11:45:18
+TruClient Replay for LoadRunner 12.53.0, build 1203. OS: Windows 7, Browser: Chromium, initialized on 2016/06/29 at 11:45:18 (0000.000s)
+
+Running Vuser...
+Starting iteration 1.
+Notify: Transaction "TC_MeasurementOnPeaceFull" started.
+t=00004374ms: ** 1: Navigate to http://50.112.197.225 ** started    [MsgId: MMSG-205180]
+t=00008970ms: ** 1: Navigate to http://50.112.197.225 ** successfully completed with end event 'Document Loaded'    [MsgId: MMSG-205180]
+Notify: Transaction "TC_MeasurementOnPeaceFull" ended with a "Pass" status (Duration: 4.6180 Wasted Time: 0.5710).
+Ending iteration 1.
+Ending Vuser...
+Vuser Terminated.

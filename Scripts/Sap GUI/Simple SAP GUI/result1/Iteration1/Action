@@ -1,0 +1,15 @@
+[snapshot101]
+PassCount=1
+Pass1=snapshot10101
+[snapshot1011]
+PassCount=1
+Pass1=snapshot101101
+[snapshot1017]
+PassCount=1
+Pass1=snapshot101701
+[snapshot1020]
+PassCount=1
+Pass1=snapshot102001
+[snapshot1023]
+PassCount=1
+Pass1=snapshot102301

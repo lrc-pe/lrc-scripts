@@ -1,0 +1,13 @@
+[ObjectProperties]
+type_as_string=GuiButton
+component_name=SPOP-OPTION1
+Text=Yes
+Tooltip=
+Top=73
+Left=45
+Height=22
+Width=83
+[ParentWindowData]
+ParentWindowTitle=Log Off
+Snapshot=snapshot1023
+NoHighlightSnapshot=snapshot1022

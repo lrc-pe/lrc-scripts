@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\ADMINI~1\AppData\Local\Temp\TC\Scripts\TRT_Measurements
+-IC:\Program Files (x86)\HP\TruClient\include
+-ec:\users\admini~1\appdata\local\temp\tc\scripts\trt_measurements\\logfile.log
+c:\users\admini~1\appdata\local\temp\tc\scripts\trt_measurements\\combined_TRT_Measurements.c
+c:\users\admini~1\appdata\local\temp\tc\scripts\trt_measurements\\pre_cci.c

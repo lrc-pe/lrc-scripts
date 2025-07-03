@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\admin\Desktop\SAP GUI\Simple SAP GUI
+-IC:\Program Files (x86)\HP\Virtual User Generator\include
+-ec:\users\admin\desktop\sap gui\simple sap gui\\logfile.log
+c:\users\admin\desktop\sap gui\simple sap gui\\combined_Simple SAP GUI.c
+c:\users\admin\desktop\sap gui\simple sap gui\\pre_cci.c

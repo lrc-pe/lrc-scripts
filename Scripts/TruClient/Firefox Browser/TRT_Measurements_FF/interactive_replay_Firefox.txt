@@ -1,0 +1,33 @@
+Virtual User Script started at : 2015-07-30 07:56:13
+Starting action Init.
+TruClient Replay for LoadRunner 12.50.0, build 0009. OS: Windows 7, Browser: Firefox, initialized on 2015/07/30 at 07:56:13 (0000.000s)
+Ending action Init.
+Running Vuser...
+Starting iteration 1.
+Starting action Action.
+Notify: Transaction "1 Seconds" started.
+t=00001207ms: ** 1: Wait 1 seconds ** started    [MsgId: MMSG-205180]
+t=00002439ms: ** 1: Wait 1 seconds ** successfully completed    [MsgId: MMSG-205180]
+Notify: Transaction "1 Seconds" ended with a "Pass" status (Duration: 1.2490 Think Time: 1.0120 Wasted Time: 0.2010).
+Notify: Transaction "2 Seconds" started.
+t=00002459ms: ** 2: Wait 2 seconds ** started    [MsgId: MMSG-205180]
+t=00004686ms: ** 2: Wait 2 seconds ** successfully completed    [MsgId: MMSG-205180]
+Notify: Transaction "2 Seconds" ended with a "Pass" status (Duration: 2.2480 Think Time: 2.0000 Wasted Time: 0.2030).
+Notify: Transaction "3 Seconds" started.
+t=00004720ms: ** 3: Wait 3 seconds ** started    [MsgId: MMSG-205180]
+t=00007939ms: ** 3: Wait 3 seconds ** successfully completed    [MsgId: MMSG-205180]
+Notify: Transaction "3 Seconds" ended with a "Pass" status (Duration: 3.2430 Think Time: 3.0010 Wasted Time: 0.2010).
+Notify: Transaction "4 Seconds" started.
+t=00007964ms: ** 4: Wait 4 seconds ** started    [MsgId: MMSG-205180]
+t=00012184ms: ** 4: Wait 4 seconds ** successfully completed    [MsgId: MMSG-205180]
+Notify: Transaction "4 Seconds" ended with a "Pass" status (Duration: 4.2370 Think Time: 4.0010 Wasted Time: 0.2010).
+Notify: Transaction "5 Seconds" started.
+t=00012207ms: ** 5: Wait 5 seconds ** started    [MsgId: MMSG-205180]
+t=00017435ms: ** 5: Wait 5 seconds ** successfully completed    [MsgId: MMSG-205180]
+Notify: Transaction "5 Seconds" ended with a "Pass" status (Duration: 5.2560 Think Time: 5.0000 Wasted Time: 0.2020).
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action End.
+Ending action End.
+Vuser Terminated.

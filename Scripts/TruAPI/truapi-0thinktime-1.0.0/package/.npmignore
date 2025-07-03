@@ -1,0 +1,6 @@
+/result_*_message.csv
+/result_*_transaction.csv
+/result_*_datapoint.csv
+/truapi_*.log
+
+/*.tgz

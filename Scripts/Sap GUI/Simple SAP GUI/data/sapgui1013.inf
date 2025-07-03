@@ -1,0 +1,15 @@
+[ObjectProperties]
+type_as_string=GuiMainWindow
+component_name=wnd[0]
+Text=SAP Easy Access  -  User menu for Mercury QA01
+Tooltip=
+Top=-8
+Left=-8
+Height=1056
+Width=1936
+WorkPaneWidth=266
+WorkPaneHeight=40
+[ParentWindowData]
+ParentWindowTitle=SAP Easy Access  -  User menu for Mercury QA01
+Snapshot=snapshot1011
+NoHighlightSnapshot=snapshot1010

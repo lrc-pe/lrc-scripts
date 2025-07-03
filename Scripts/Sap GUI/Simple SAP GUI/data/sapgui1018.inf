@@ -1,0 +1,13 @@
+[ObjectProperties]
+type_as_string=GuiButton
+component_name=btn[12]
+Text=
+Tooltip=Cancel   (F12)
+Top=4
+Left=304
+Height=22
+Width=22
+[ParentWindowData]
+ParentWindowTitle=Display Sales Order: Initial Screen
+Snapshot=snapshot1017
+NoHighlightSnapshot=snapshot1016

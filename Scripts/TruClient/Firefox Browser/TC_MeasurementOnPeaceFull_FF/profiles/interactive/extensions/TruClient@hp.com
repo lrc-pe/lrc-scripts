@@ -1,0 +1,1 @@
+C:\Program Files (x86)\HP\TruClient\dat\FFProfile\extensions\TruClient@hp.com

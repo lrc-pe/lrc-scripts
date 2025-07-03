@@ -1,6 +1,0 @@
-<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <PropertyGroup>
-    <DebugProgram>C:\Program Files (x86)\HP\LoadRunner\bin\mdrv.exe</DebugProgram>
-    <VuserName>C:\Users\Administrator\Documents\VuGen\Scripts\DotNet_TRACT\DotNet_TRACT.usr</VuserName>
-  </PropertyGroup>
-</Project>
