@@ -1,0 +1,8 @@
+C:\Users\Administrator\Documents\VuGen\Scripts\DotNet_TRACT\bin\Script.dll
+C:\Users\Administrator\Documents\VuGen\Scripts\DotNet_TRACT\bin\Script.pdb
+C:\Users\Administrator\Documents\VuGen\Scripts\DotNet_TRACT\bin\ClassLibrary1.dll
+C:\Users\Administrator\Documents\VuGen\Scripts\DotNet_TRACT\bin\DotNetReplayUtils.dll
+C:\Users\Administrator\Documents\VuGen\Scripts\DotNet_TRACT\bin\LoadRunner.dll
+C:\Users\Administrator\Documents\VuGen\Scripts\DotNet_TRACT\obj\Debug\Script.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\VuGen\Scripts\DotNet_TRACT\obj\Debug\Script.dll
+C:\Users\Administrator\Documents\VuGen\Scripts\DotNet_TRACT\obj\Debug\Script.pdb
